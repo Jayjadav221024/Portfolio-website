@@ -1,0 +1,158 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(220 15% 18%);
+    background-image: url(Screenshot\ 2025-12-09\ 143534.png);
+    overflow-x: hidden;
+}
+.navbar{
+    height: 100px;
+    width: 100vw;
+    /* background-color: hsl(220 15% 18%); */
+    padding: 0.5rem;
+}
+.navbaritem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    list-style: none;
+    width: 100%;
+    backface-visibility: inherit;
+}
+.l1:hover{
+  text-decoration-line: underline;
+}
+.l2:hover{
+    text-decoration: underline;
+}
+.l3:hover{
+    text-decoration: underline;
+}
+.l4:hover{
+    text-decoration: underline;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo{
+    height: 48px;
+    width: 48px;
+}
+li{
+    font-style: initial;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    display: flex;
+    
+}
+.darkmode{
+    height: 48px;
+    width: 48px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkmode:hover{
+    background-color: rgb(50, 37, 134);
+}
+
+.darkimg{
+    height: 28px;
+    width: 28px;
+    
+}
+.darkimg:hover{
+    /* padding: 5px; */
+    border: 1px solid white;
+    border-style: none;
+    background-color: rgb(50, 37, 134);
+    border-radius: 50%;
+}
+.myimage{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 50%;
+    margin-top: 2.7rem;
+}
+.mainpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myimg{
+    height: 168px;
+    width: 168px;
+    border: 1px solid rgb(85, 73, 73);
+    
+    border-radius: 50%;
+}
+.myimage:hover{
+    transform: scale(1.2) rotate(5deg);
+    transition: transform 330ms ease-in-out
+}
+.heading{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    
+    color: #8f96a3;
+    letter-spacing: 0.025rem;
+    font-size: 1.975rem;
+    font-weight: 400;
+    margin-top: 2.9rem;
+}
+.name{
+    font-size: 6.5rem;
+    font-family: sans-serif;
+    color: transparent;
+     background-image: linear-gradient(to right, #8E2DE2, #4A00E0);
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+.poffesion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #f2f2f2E6;
+    margin-top: 1rem;
+}
+p{
+    color: #8f96af;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.text1{
+    color: #38e0fa;
+}
+.text2{
+    color: #4be784;
+}
+.text3{
+    color: #d4f117c4;
+}
+.company{
+    color: #38e0fa;
+}
+.com{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0.2rem;
+}
